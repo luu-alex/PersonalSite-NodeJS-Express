@@ -43,7 +43,6 @@ li {
 }
 p {
     font-family: 'Oswald', sans-serif;
-    text-align:center;
 }
 .spacetop {
     padding-top: 40%;
@@ -61,8 +60,8 @@ p {
     padding-top: 175%;
 }
 
-.paddingleft {
-    padding-left:200;
+#ctrlsize {
+    font-size:20;
 }
 
 
@@ -72,9 +71,24 @@ p {
     
 }
 .jumbotron{
-    padding-left:390;
+    padding-left:10%;
 }
 
 .menu-items {
     padding-top:150%;
+}
+
+.row{
+    padding-left:200;
+}
+.centre {
+    padding-left:20%;
+}
+.center {
+ text-align:center;   
+}
+
+.limit {
+    width:80%;
+    background-color:white;
 }
