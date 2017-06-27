@@ -1,0 +1,80 @@
+h1 {
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+.smaller {
+    padding: 24;
+}
+body {
+    background-color:white;
+    background: url('') repeat;
+    
+}
+
+.smaller{
+    background-color:#b98091;
+}
+.descrip{
+    background-color:#8091b9;
+}
+
+.blackground{
+    background-color:#545a6b;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 9%;
+    min-width: 125;
+    background-color: white;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border-right:solid;
+    border-bottom:solid;
+}
+
+li {
+    font-family: 'Oswald';
+    border-bottom:gray Solid 2px;
+    
+    
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+.spacetop {
+    padding-top: 40%;
+    
+}
+.spaceleft{
+    padding-left: 30;
+}
+
+.font-one {
+    font-family: 'Oswald', sans-serif;
+}
+
+.menuspace {
+    padding-top: 175%;
+}
+
+.paddingleft {
+    padding-left:200;
+}
+
+
+
+.iconleft {
+    padding-left:20;
+    
+}
+.jumbotron{
+    padding-left:390;
+}
+
+.menu-items {
+    padding-top:150%;
+}
