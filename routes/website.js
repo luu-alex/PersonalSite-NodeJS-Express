@@ -7,6 +7,15 @@ router.get('/', function(req, res){
 router.get('/practice', function(req, res){
     res.render('practice');
 });
+router.get('/experience', function(req, res){
+    res.render('practice');
+});
+router.get('/education', function(req, res){
+    res.render('practice');
+});
+router.get('/blog', function(req, res){
+    res.send('blog');
+});
 
 
 module.exports = router;

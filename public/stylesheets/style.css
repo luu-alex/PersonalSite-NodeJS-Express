@@ -8,6 +8,7 @@ h1 {
 body {
     background-color:white;
     background: url('') repeat;
+    overflow:hidden;
     
 }
 
@@ -38,6 +39,7 @@ ul {
 li {
     font-family: 'Oswald';
     border-bottom:gray Solid 2px;
+    font-size:1.3em;
     
     
 }
@@ -45,11 +47,11 @@ p {
     font-family: 'Oswald', sans-serif;
 }
 .spacetop {
-    padding-top: 40%;
+    padding-top: 35%;
     
 }
 .spaceleft{
-    padding-left: 30;
+    padding-left: 25%;
 }
 
 .font-one {
