@@ -16,6 +16,18 @@ router.get('/education', function(req, res){
 router.get('/blog', function(req, res){
     res.send('blog');
 });
+router.get('/evermight', function(req, res){
+    res.render('designone.ejs')
+})
 
-
+router.get('/nav', function(req,res){
+    res.render('nav.ejs')
+})
+router.get('/v2', function(req, res){
+    res.render('v2.ejs');
+})
 module.exports = router;
+
+router.get('/slash', function(req, res){
+    res.render('slashworkers');
+})

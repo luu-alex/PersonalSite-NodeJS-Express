@@ -15,11 +15,10 @@
     <div class='col-md-3'>
     </div>
     
-    <div class='col-md-3'> <a onClick="document.querySelector('#about').scrollIntoView({ 
-  behavior: 'smooth'});"><h2 style='color:black;font-weight:bold;font-size:40;text-decoration-color:black;'> About me </h2> </a> </div>
+    <div class='col-md-3'> <a href='#about' class='page-scroll' ><h2 style='color:black;font-weight:bold;font-size:40;text-decoration-color:black;'> About me </h2> </a> </div>
     <div class='col-md-3'>
     </div>
-    <div class='col-md-3'> <a onClick="document.getElementById('contact').scrollIntoView();"><h2 style='color:black;font-weight:bold;font-size:40;text-decoration-color:black;'> Contact </h2> </a> </div>
+    <div class='col-md-3'> <a href='#contact' class='page-scroll' ><h2 style='color:black;font-weight:bold;font-size:40;text-decoration-color:black;'> Contact </h2> </a> </div>
 
 </div>
 <div id='about'>
@@ -39,14 +38,25 @@
 <h1 id='contact'> Contact me</h1>
 <p class='paragraph'> I love people, let me know what you're thinking</p>
 <br> <br> <br> <br> <br> <br> <br> <br>
-         <i class="fa fa-twitter fa-5x" aria-hidden="true"></i> 
+    <div class='row' id='smaller'>
+        <div class='col-md-3' >
+        <a href='https://www.facebook.com/a.lexluuu'>
          <i class="fa fa-facebook fa-5x" aria-hidden="true"></i> 
+        </a>
+        <a href='https://github.com/luu-alex'>
          <i class="fa fa-github fa-5x" aria-hidden="true"></i> 
+        </a>
+        <a href='https://www.linkedin.com/in/alex-luu-b2b879121/'>
          <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i> 
-        
-<div class='jumbotron' id='jumbo'>
+        </a>
+         </div>
+    </div>    
+<div class='jumbotron' id='nopad'>
     <div class='bg3'>
     </div>
        
     </div>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="/scripts/scroll.js"></script>
+
