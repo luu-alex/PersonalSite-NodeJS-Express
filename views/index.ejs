@@ -1,28 +1,212 @@
-<% include partials/header %>
+<html>
+    <head>
+		<style>
+			.jumbotron {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    padding:0;
+}
+#about {
+	display:inline-block
+	width:50%;
+	color:red;
+}
+.jumbotron .better {
+	height:100%;
+	width:100%;
+
+	
+}
+.jumbotron .bg {
+    background-size:cover;
+    background-image:url('http://i.imgur.com/eMHfuN9.jpg');
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    opacity:0.8;
+ }
+
+.jumbotron .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#flex {
+	display:flex
+}
+#jumbo {
+    padding:0;
+}
+
+.content{
+    color:white;
+    padding-top:%;
+    text-align: center;
+    
+}
+#font {
+    font-family:'Lato','Merriweather';
+    font-size:50px;
+}
+.row {
+    height:100%;
+}
+
+#para {
+	height 500;
+}
+.btn {
+    height:25%;
+    width:30%;
+}
 
 
-<div class='row'>
-  <div class='container col-md-5'>
-  </div>
-  
-  <div class='container col-md-4'>
-      <a class="btn btn-social-icon btn-github" href='https://github.com/luu-alex'>
-        <span class="fa fa-github fa-5x"></span>
-              <p> Github</p>
-      </a>
 
-  </div>
-</div>
-<div class='row ' id='ctrlsize'>
-  <div class='jumbotron limit'>
-  <p> Hello! My name is Alex and I study computer science at the University of Toronto. I am a second year student who enjoys a relaxing with my guitar, listening to music.
-  I have experience using NodeJS, Javascript, HTML, CSS and Python. I dived into coding this for my interest in computer science and to have a taste of web developement,
-  creating and testing out ideas! </p>
+.jumbotron .bg2 {
+    background-size:cover;
+    background-image:url('http://i.imgur.com/yirz44f.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:0.7;
+ }
+
+ .jumbotron .bg3 {
+    background-size:cover;
+    background-image:url('http://i.imgur.com/lP2bADH.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+ }
  
- </div>
+ p {
+     color:white;
+ }
+ .paragraph {
+    font-family:'Lato','Merriweather';
+    font-size:20px;
+    color:black;
+     
+ }
+ 
+#smaller {
+    height:70;
+}
+#nopad{
+    padding:0;
+}
+		</style>
+        <title>  Alex Resume</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel='stylesheet' href='/stylesheets/style.css' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tenali+Ramakrishna" rel="stylesheet">
+        <script src="https://use.fontawesome.com/28342c2ac4.js"></script>
+        <link rel="icon" type="image/vnd.microsoft.icon"
+     href="https://d30y9cdsu7xlg0.cloudfront.net/png/8205-200.png" />
+    </head>
+<body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class='jumbotron' id='jumbo'>
+    <div class='bg'>
+        
+    </div>
+	<div class="jumbotron vertical-center" style="background: rgb(200, 54, 54,0.0);width:400;padding-left:32%">
+		<div class='content style1' id='font' style="height:150; background: rgb(0,0,0,0.6);color:white">
+        <h1 >Alex Luu!</h1>
+        <h3 style=""> University of Toronto Computer Science</h3>
+        </div>
+    </div>
+
+<div class="container-fluid vertical-center" style="height:180; background: rgb(0,0,0,0.6);color:white;width:60%">
+	<div class='row'>
+	
+    <div class='col-md-3 text-right'> <a href='https://github.com/luu-alex' ><h2 style='color:white;font-weight:bold;font-size:20;text-decoration-color:black;'> 
+	<p>Github</p><i class="fa fa-github fa-5x" aria-hidden="true"></i>  </h2> </a> </div>
+    <div class='col-md-3 text-right'> <a href='https://www.linkedin.com/in/alex-luu-b2b879121/'> 
+	<h2 style='color:#A3E4D7;font-weight:bold;font-size:20;text-decoration-color:black;'> <p style="color:white;">LinkedIn</p><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i> </h2> </a> </div>
+	<div class='col-md-3 text-right'> <a href='https://www.facebook.com/a.lexluuu'><h2 style='color:#2874A6;font-weight:bold;font-size:20;text-decoration-color:black;'><p> Facebook </p> <i class="fa fa-facebook fa-5x" aria-hidden="true"></i>  </h2> </a> </div>
+</div>
+	
+	
+</div>
 </div>
 
+<div class="jumbotron " style="background-color:transparent; padding-top:30%;padding-bottom:17%;padding-left:2%">
+<div style="display:inline-block">
+    <h1 id='font' > About.</h1>
+    <p class='paragraph'> Hello all, I'm a Canadian programmer and I love to come up with solutions to current problems</p>
+    <p class='paragraph'> I am a member of the math computer science society </p>
+    <p class='paragraph'> I love attending competing in Hackathons, currently I've been to: UofTHacks, BioHacks, PennApps </p>
+    <p class='paragraph'>Coding proficiency: MEAN stack, C++, Python, Java, C  </p>
+</div>
+</div>
+    <div class='jumbotron' id='jumbo'>
+        <div class='bg2'>
+            
+        </div>
+    </div>
+</div>
+<a href="https://betterplanner.me/">
+<h1> BetterPlanner</h1>
+</a>
+<div class="row " style="height:45%" >
 
+<div class="col-lg-4 col-md-4 col-xs-4 thumb" style="padding:0;border-bottom: 3px solid black" >
+    <a class="thumbnail" href="https://betterplanner.me/">
+        <img class="img-responsive" src="https://i.imgur.com/RMqZXVS.png" alt="">
+    </a>
+</div>
 
+<div class="col-lg-8 col-md-8 col-xs-8 "  style="padding-bottom:45px;border-bottom: 3px solid black">
+	<p class="paragraph" > Project leader and developer- <br> BetterPlanner is a UofT database containing every single course Uoft has to offer. From scraping data off official Uoft websites, we now use an amazing API and display beautifully.
+		. Coded using Python, MongoDB, and Flask. 
+	</p>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<a href="https://github.com/luu-alex/Better-UofT-planner" class="btn btn-info" style="height:30;width:150;" role="button">See on GitHub</a>
+	</div>
+</div>
+<h1> LeetCode </h1>
+<div class="row " style="height:75%" >
 
-<% include partials/footer %>
+<div class="col-lg-4 col-md-4 col-xs-4 thumb" style="padding:0;border-bottom: 3px solid black" >
+    <a class="thumbnail" >
+        <img class="img-responsive" src="https://leetcode.com/static/images/LeetCode_Sharing.png" alt="">
+    </a>
+</div>
+
+<div class="col-lg-8 col-md-8 col-xs-8 "  style="padding-bottom:68px;border-bottom: 3px solid black">
+	<p class="paragraph" > I enjoy problem solving, I have a repo of all of the problems I have attempted and will continue to share as I complete more and more.
+	</p>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<a href="https://github.com/luu-alex/Leetcode-solutions" class="btn btn-info" style="height:30;width:150;" role="button">See on GitHub</a>
+	</div>
+</div>
+
+  
+<div class='jumbotron' id='nopad'>
+    <div class='bg3'>
+    </div>
+       
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+    <script src="/scripts/scroll.js"></script>
+<div class'container marginp '>
+    
+
+    </body>
+</html>
