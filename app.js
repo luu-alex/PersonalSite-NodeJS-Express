@@ -10,6 +10,6 @@ app.use(express.static('public'));
 
 app.use('/', websiteRoutes);
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(process.env.PORT||"3030", process.env.IP||"127.0.0.1", function(){
     console.log('server started!');
 })
